@@ -33,14 +33,37 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-6 py-20">
-        <div className="grid items-center gap-16 lg:grid-cols-[1fr_auto]">
-          <div>
+        <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.2, duration: 0.7, ease: "easeOut" }}
+            className="flex items-center justify-center lg:order-2"
+          >
+            <div className="animate-float relative">
+              <div className="absolute -inset-3 rounded-full bg-blue-500/20 blur-2xl" />
+              <div className="relative h-40 w-40 rounded-full bg-gradient-to-br from-white/20 to-white/5 p-[2px] sm:h-52 sm:w-52 lg:h-64 lg:w-64">
+                <div className="h-full w-full overflow-hidden rounded-full">
+                  <Image
+                    src="/vico-ramdhani.jpg"
+                    alt="Vico Ramdhani"
+                    width={256}
+                    height={256}
+                    priority
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <div className="lg:order-1">
             <motion.p
               custom={0}
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-accent"
+              className="mb-5 text-center text-sm font-semibold uppercase tracking-[0.3em] text-accent lg:text-left"
             >
               Backend Engineer
             </motion.p>
@@ -50,7 +73,7 @@ export function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-3xl font-extrabold leading-[1.15] tracking-tight text-foreground sm:text-4xl lg:text-[2.75rem]"
+              className="text-center text-3xl font-extrabold leading-[1.15] tracking-tight text-foreground sm:text-4xl lg:text-left lg:text-[2.75rem]"
             >
               Production Stability,
               <br />
@@ -66,7 +89,7 @@ export function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="mt-6 max-w-xl text-base leading-relaxed text-muted sm:text-lg"
+              className="mx-auto mt-6 max-w-xl text-center text-base leading-relaxed text-muted sm:text-lg lg:mx-0 lg:text-left"
             >
               I own backend systems end-to-end — from diagnosing production
               incidents under pressure to designing data pipelines that connect
@@ -78,7 +101,7 @@ export function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="mt-8 flex flex-wrap gap-2"
+              className="mt-8 flex flex-wrap justify-center gap-2 lg:justify-start"
             >
               {FOCUS_AREAS.map((area) => (
                 <span
@@ -95,7 +118,7 @@ export function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="mt-10 flex flex-wrap gap-4"
+              className="mt-10 flex flex-wrap justify-center gap-4 lg:justify-start"
             >
               <Link
                 href="#case-study"
@@ -137,29 +160,6 @@ export function HeroSection() {
               </Link>
             </motion.div>
           </div>
-
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4, duration: 0.7, ease: "easeOut" }}
-            className="hidden items-center justify-center lg:flex"
-          >
-            <div className="animate-float relative">
-              <div className="absolute -inset-3 rounded-full bg-blue-500/20 blur-2xl" />
-              <div className="relative h-64 w-64 rounded-full bg-gradient-to-br from-white/20 to-white/5 p-[2px]">
-                <div className="h-full w-full overflow-hidden rounded-full">
-                  <Image
-                    src="/vico-ramdhani.jpg"
-                    alt="Vico Ramdhani"
-                    width={256}
-                    height={256}
-                    priority
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
 
