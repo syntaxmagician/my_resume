@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vico Ramdhani | Backend Engineer",
+  title: "Vico Tegar Ramdhani | Full-Stack Developer",
   description:
-    "Backend Engineer specializing in production stability, performance tuning, database optimization, and scalable architecture.",
+    "Full-Stack Developer & Web Security Engineer with 5+ years of experience building scalable web applications in Node.js, React.js, PHP, and Golang.",
 };
 
 export default function RootLayout({
