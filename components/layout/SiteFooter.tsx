@@ -45,7 +45,7 @@ export function SiteFooter() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="mx-auto max-w-6xl px-6"
+        className="mx-auto max-w-6xl px-4 sm:px-6"
       >
         {/* Contact bar */}
         <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap sm:gap-8">

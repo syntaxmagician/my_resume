@@ -401,12 +401,15 @@ export function InteractiveAISection() {
   const [input, setInput] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [typingText, setTypingText] = useState("");
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const nextId = useRef(1);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    const container = chatContainerRef.current;
+    if (container) {
+      container.scrollTop = container.scrollHeight;
+    }
   }, [messages, typingText]);
 
   const submitQuestion = useCallback(
@@ -455,7 +458,7 @@ export function InteractiveAISection() {
     <section id="ai-assistant" className="relative overflow-hidden py-24 sm:py-32">
       <div className="pointer-events-none absolute left-1/2 top-0 h-[1px] w-2/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-purple-500/40 to-transparent" />
 
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -500,7 +503,7 @@ export function InteractiveAISection() {
             </div>
 
             {/* Chat messages */}
-            <div className="h-[400px] space-y-4 overflow-y-auto p-5 sm:p-6">
+            <div ref={chatContainerRef} className="h-[400px] space-y-4 overflow-y-auto p-5 sm:p-6">
               {messages.map((msg) => (
                 <div
                   key={msg.id}
@@ -553,7 +556,6 @@ export function InteractiveAISection() {
                 </div>
               )}
 
-              <div ref={messagesEndRef} />
             </div>
 
             {/* Suggestions */}

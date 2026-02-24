@@ -32,7 +32,7 @@ export function HeroSection() {
         <div className="animate-blob absolute left-1/2 top-1/2 h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/10 blur-[100px] [animation-delay:4s] sm:h-[350px] sm:w-[350px]" />
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-6xl px-6 py-20">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-4 py-20 sm:px-6">
         <div className="grid items-center gap-10 lg:grid-cols-[1fr_auto] lg:gap-16">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}

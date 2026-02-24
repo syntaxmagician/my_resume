@@ -17,7 +17,7 @@ export function PageSection({
 }: PageSectionProps) {
   return (
     <section id={id} className="border-t border-subtle">
-      <div className={`mx-auto max-w-5xl px-6 py-20 md:py-28 ${className}`}>
+      <div className={`mx-auto max-w-5xl px-4 py-20 sm:px-6 md:py-28 ${className}`}>
         {(eyebrow || title) && (
           <header className="mb-12">
             {eyebrow && (

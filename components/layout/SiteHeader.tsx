@@ -32,7 +32,7 @@ export function SiteHeader() {
       transition={{ duration: 0.5 }}
       className="fixed top-0 z-50 w-full border-b border-white/5 bg-[#0f172a]/80 backdrop-blur-xl"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <Link href="#hero" className="text-sm font-semibold tracking-tight text-foreground">
           Vico Ramdhani
         </Link>
@@ -76,7 +76,7 @@ export function SiteHeader() {
             transition={{ duration: 0.25, ease: "easeInOut" }}
             className="overflow-hidden border-t border-white/5 sm:hidden"
           >
-            <div className="flex flex-col gap-1 px-6 py-4">
+            <div className="flex flex-col gap-1 px-4 py-4 sm:px-6">
               {NAV_LINKS.map((link) => (
                 <Link
                   key={link.href}

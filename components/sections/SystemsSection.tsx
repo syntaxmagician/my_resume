@@ -72,7 +72,7 @@ export function SystemsSection() {
     <section id="systems" className="relative overflow-hidden py-24 sm:py-32">
       <div className="pointer-events-none absolute left-1/2 top-0 h-[1px] w-2/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-purple-500/40 to-transparent" />
 
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
