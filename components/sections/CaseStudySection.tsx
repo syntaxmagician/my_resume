@@ -73,7 +73,7 @@ export function CaseStudySection() {
           className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl"
         >
           {/* Architecture diagram */}
-          <div className="border-b border-white/5 p-8 sm:p-10">
+          <div className="border-b border-white/5 p-5 sm:p-8 lg:p-10">
             <p className="mb-6 text-[10px] font-semibold uppercase tracking-[0.25em] text-dim">
               Connection Architecture — Before vs After
             </p>
@@ -116,7 +116,7 @@ export function CaseStudySection() {
           {/* Problem / Root Cause / Solution / Impact grid */}
           <div className="grid gap-px bg-white/5 sm:grid-cols-2">
             {/* Problem */}
-            <div className="bg-[#0f172a] p-8 sm:p-10">
+            <div className="bg-[#0f172a] p-5 sm:p-8 lg:p-10">
               <Badge variant="red">Problem</Badge>
               <p className="mt-4 text-sm leading-relaxed text-muted">
                 Production logistics system intermittently refused new
@@ -130,7 +130,7 @@ export function CaseStudySection() {
             </div>
 
             {/* Root Cause */}
-            <div className="bg-[#0f172a] p-8 sm:p-10">
+            <div className="bg-[#0f172a] p-5 sm:p-8 lg:p-10">
               <Badge variant="red">Root Cause</Badge>
               <ul className="mt-4 space-y-2 text-sm text-muted">
                 <li className="flex items-start gap-2">
@@ -151,7 +151,7 @@ export function CaseStudySection() {
             </div>
 
             {/* Solution */}
-            <div className="bg-[#0f172a] p-8 sm:p-10">
+            <div className="bg-[#0f172a] p-5 sm:p-8 lg:p-10">
               <Badge variant="green">Architecture Changes</Badge>
               <ul className="mt-4 space-y-2 text-sm text-muted">
                 <li className="flex items-start gap-2">
@@ -182,7 +182,7 @@ export function CaseStudySection() {
             </div>
 
             {/* Impact */}
-            <div className="bg-[#0f172a] p-8 sm:p-10">
+            <div className="bg-[#0f172a] p-5 sm:p-8 lg:p-10">
               <Badge variant="green">Outcome</Badge>
               <ul className="mt-4 space-y-2 text-sm text-muted">
                 <li className="flex items-start gap-2">

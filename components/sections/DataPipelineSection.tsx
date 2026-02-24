@@ -84,7 +84,7 @@ export function DataPipelineSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl sm:p-10"
+          className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-xl sm:p-8 lg:p-10"
         >
           <p className="mb-8 text-[10px] font-semibold uppercase tracking-[0.25em] text-dim">
             Pipeline Architecture — End to End
