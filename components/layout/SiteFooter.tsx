@@ -37,7 +37,7 @@ export function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative pb-10 pt-16">
+    <footer className="relative overflow-hidden pb-10 pt-16">
       <div className="pointer-events-none absolute left-1/2 top-0 h-[1px] w-1/2 -translate-x-1/2 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent" />
 
       <motion.div
@@ -48,7 +48,7 @@ export function SiteFooter() {
         className="mx-auto max-w-6xl px-6"
       >
         {/* Contact bar */}
-        <div className="mb-8 flex flex-wrap items-center justify-center gap-6 sm:gap-8">
+        <div className="mb-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap sm:gap-8">
           {CONTACTS.map((c) => (
             <a
               key={c.href}

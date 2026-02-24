@@ -98,7 +98,7 @@ function MetricCard({ metric, index }: { metric: Metric; index: number }) {
 
 export function ImpactMetricsSection() {
   return (
-    <section className="relative py-24 sm:py-32">
+    <section className="relative overflow-hidden py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

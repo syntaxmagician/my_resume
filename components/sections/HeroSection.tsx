@@ -26,10 +26,10 @@ export function HeroSection() {
       id="hero"
       className="relative flex min-h-screen items-center overflow-hidden"
     >
-      <div className="pointer-events-none absolute inset-0">
-        <div className="animate-blob absolute -left-32 -top-32 h-[500px] w-[500px] rounded-full bg-blue-600/20 blur-[120px]" />
-        <div className="animate-blob absolute -bottom-40 -right-40 h-[450px] w-[450px] rounded-full bg-purple-600/20 blur-[120px] [animation-delay:2s]" />
-        <div className="animate-blob absolute left-1/2 top-1/2 h-[350px] w-[350px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/10 blur-[100px] [animation-delay:4s]" />
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        <div className="animate-blob absolute -left-20 -top-20 h-[300px] w-[300px] rounded-full bg-blue-600/20 blur-[120px] sm:h-[500px] sm:w-[500px] md:-left-32 md:-top-32" />
+        <div className="animate-blob absolute -bottom-20 -right-20 h-[280px] w-[280px] rounded-full bg-purple-600/20 blur-[120px] [animation-delay:2s] sm:h-[450px] sm:w-[450px] md:-bottom-40 md:-right-40" />
+        <div className="animate-blob absolute left-1/2 top-1/2 h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/10 blur-[100px] [animation-delay:4s] sm:h-[350px] sm:w-[350px]" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-6 py-20">

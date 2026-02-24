@@ -43,7 +43,7 @@ function Arrow() {
 
 export function CaseStudySection() {
   return (
-    <section id="case-study" className="relative py-24 sm:py-32">
+    <section id="case-study" className="relative overflow-hidden py-24 sm:py-32">
       <div className="pointer-events-none absolute left-1/2 top-0 h-[1px] w-2/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-blue-500/40 to-transparent" />
 
       <div className="mx-auto max-w-6xl px-6">
