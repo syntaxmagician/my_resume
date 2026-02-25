@@ -51,8 +51,8 @@ export function ContactSection() {
   return (
     <PageSection id="contact" title="Contact">
       <p className="mb-8 max-w-lg text-sm text-muted">
-        Open to full-stack, mobile, or security engineering roles. Let&apos;s
-        connect.
+        Open to backend engineering roles focused on production stability,
+        system architecture, and data infrastructure. Let&apos;s connect.
       </p>
 
       <div className="grid gap-4 sm:grid-cols-2">

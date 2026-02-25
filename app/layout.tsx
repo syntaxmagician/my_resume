@@ -19,9 +19,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Vico Tegar Ramdhani | Full-Stack Developer",
+  title: "Vico Tegar Ramdhani | Backend Engineer",
   description:
-    "Full-Stack Developer & Web Security Engineer with 5+ years of experience building scalable web applications in Node.js, React.js, PHP, and Golang.",
+    "Backend Engineer specializing in production stability, system architecture, and data infrastructure. Node.js, Golang, MySQL, MongoDB.",
 };
 
 export default function RootLayout({

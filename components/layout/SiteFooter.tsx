@@ -72,7 +72,7 @@ export function SiteFooter() {
               Vico Tegar Ramdhani
             </p>
             <p className="mt-0.5 text-xs text-dim">
-              Full-Stack Developer &amp; Web Security Engineer
+              Backend Engineer — Production Systems &amp; Data Infrastructure
             </p>
           </div>
           <p className="text-xs text-dim">&copy; {year}</p>

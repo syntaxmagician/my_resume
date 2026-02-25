@@ -16,7 +16,7 @@ const KNOWLEDGE: KnowledgeEntry[] = [
       "introduce", "perkenalan", "name", "nama", "profile", "vico",
     ],
     answer:
-      "Vico Tegar Ramdhani is a results-driven Full-Stack Developer with over 5 years of hands-on experience designing, developing, and deploying modern web applications. Proficient in Node.js, React.js, PHP, and Golang, with strong database management skills (SQL/NoSQL). He brings added value through a solid background in cybersecurity and secure coding practices, and has built scalable, high-performance systems for logistics, e-commerce, and digital security platforms.",
+      "Vico Tegar Ramdhani is a Backend Engineer focused on production stability, system architecture, and data infrastructure. He owns backend systems end-to-end — from diagnosing critical production incidents to designing data pipelines that connect multiple databases into unified reporting layers. His stack spans Node.js, Golang, MySQL, MongoDB, and GCP-based data tooling (Airflow, BigQuery, Looker Studio). He also brings added value through a solid background in cybersecurity and secure coding practices.",
   },
   {
     keywords: [
@@ -50,7 +50,7 @@ const KNOWLEDGE: KnowledgeEntry[] = [
       "strength", "kelebihan", "good at", "jago", "competenc",
     ],
     answer:
-      "Vico's skills span the full stack: Front-End — React.js, React Native, HTML5, CSS3, Bootstrap, jQuery, Responsive Design. Back-End — Node.js (Express), Golang (Fiber), PHP (Laravel, CodeIgniter), RESTful API, WebSocket, JWT Auth. Database — MySQL, MongoDB, PostgreSQL, Redis. DevOps & Tools — Git, Docker, PM2, Nginx, Postman, Linux CLI. Security — Secure Coding, OWASP Top 10, Burp Suite, Nmap, SQLMap, Kali Linux. Soft Skills — Problem Solving, Critical Thinking, Team Collaboration, Agile/SCRUM.",
+      "Core engineering competencies: Back-End — Node.js (Express), Golang (Fiber), PHP (Laravel, CodeIgniter), RESTful API, WebSocket, JWT Auth. Front-End — React.js, React Native, HTML5, CSS3, Bootstrap. Database — MySQL, MongoDB, PostgreSQL, Redis. DevOps & Tools — Git, Docker, PM2, Nginx, Postman, Linux CLI. Security — Secure Coding, OWASP Top 10, Burp Suite, Nmap, SQLMap, Kali Linux. Soft Skills — Problem Solving, Critical Thinking, Team Collaboration, Agile/SCRUM.",
   },
   {
     keywords: [
@@ -120,7 +120,7 @@ const KNOWLEDGE: KnowledgeEntry[] = [
       "pekerjaan", "company", "perusahaan",
     ],
     answer:
-      "Vico has 5+ years of professional experience: (1) Feb 2025–Present: Mobile App Developer (Freelance) — React Native mobile apps. (2) Aug 2024–Present: Full-Stack Developer & Web Security Engineer at PT. Eureka — building HRIS, logistics systems with React.js, Node.js, MongoDB. (3) Feb 2022–Aug 2024: Technical Support & Assistant Trainer at PT. NQA — DevOps support for 150+ IT security training sessions. (4) Jun 2019–Feb 2022: Junior Programmer at PT. Spentera — web dashboards and internal tools for a cybersecurity consulting firm.",
+      "Vico has 5+ years of professional experience: (1) Feb 2025–Present: Mobile App Developer (Freelance) — React Native mobile apps. (2) Aug 2024–Present: Backend Developer & Web Security Engineer at PT. Eureka — building HRIS, logistics systems with React.js, Node.js, MongoDB. (3) Feb 2022–Aug 2024: Technical Support & Assistant Trainer at PT. NQA — DevOps support for 150+ IT security training sessions. (4) Jun 2019–Feb 2022: Junior Programmer at PT. Spentera — web dashboards and internal tools for a cybersecurity consulting firm.",
   },
   {
     keywords: [
@@ -132,11 +132,11 @@ const KNOWLEDGE: KnowledgeEntry[] = [
   },
   {
     keywords: [
-      "eureka", "full-stack", "fullstack", "full stack", "hris",
+      "eureka", "backend", "hris",
       "logistics", "web security",
     ],
     answer:
-      "At PT. Eureka (Aug 2024–Present), Vico serves as Full-Stack Developer & Web Security Engineer. Eureka is a multi-industry tech company in Indonesia delivering solutions in logistics, e-commerce, book distribution, and travel services. His work includes: building and maintaining internal systems (HRIS & Logistics) using React.js, Node.js, and MongoDB; designing secure RESTful APIs with JWT auth; integrating security practices into the SDLC to reduce critical vulnerabilities; optimizing database performance by 40% through query restructuring and indexing; and collaborating with internal teams to debug and patch vulnerabilities from audit reports.",
+      "At PT. Eureka (Aug 2024–Present), Vico serves as Backend Developer & Web Security Engineer. Eureka is a multi-industry tech company in Indonesia delivering solutions in logistics, e-commerce, book distribution, and travel services. His work includes: building and maintaining internal systems (HRIS & Logistics) using React.js, Node.js, and MongoDB; designing secure RESTful APIs with JWT auth; integrating security practices into the SDLC to reduce critical vulnerabilities; optimizing database performance by 40% through query restructuring and indexing; and collaborating with internal teams to debug and patch vulnerabilities from audit reports.",
   },
   {
     keywords: [
@@ -232,7 +232,7 @@ const KNOWLEDGE: KnowledgeEntry[] = [
       "kontribusi", "recruit", "kandidat", "candidate", "why should",
     ],
     answer:
-      "Why hire Vico? He brings 5+ years of full-stack and cybersecurity experience — a rare combination. He's built production systems for logistics (RajaCepat), travel e-commerce (Masterdiskon), and digital security (Hacktrace.id). He optimized database performance by 40% at Eureka, managed 150+ training lab environments at NQA, and has hands-on security skills (OWASP, Burp Suite, Kali Linux). He delivers end-to-end: from secure API design and frontend development to deployment and monitoring.",
+      "Why hire Vico? He brings 5+ years of backend engineering and cybersecurity experience — a rare combination. He's built production systems for logistics (RajaCepat), travel e-commerce (Masterdiskon), and digital security (Hacktrace.id). He optimized database performance by 40% at Eureka, managed 150+ training lab environments at NQA, and has hands-on security skills (OWASP, Burp Suite, Kali Linux). He owns systems end-to-end: from architecture design and API development to deployment and production monitoring.",
   },
 
   // --- Future / Plans ---
@@ -292,7 +292,7 @@ const KNOWLEDGE: KnowledgeEntry[] = [
       "cari kerja", "job", "opportunity", "lowongan",
     ],
     answer:
-      "Vico is currently active as a freelance Mobile App Developer and as a Full-Stack Developer at PT. Eureka. For new opportunities or collaborations, reach out at vicoramdhani@gmail.com, 085591196700, LinkedIn: linkedin.com/in/vikotegarramdhani, or GitHub: github.com/syntaxmagician.",
+      "Vico is currently active as a freelance Mobile App Developer and as a Backend Developer at PT. Eureka. For new opportunities or collaborations, reach out at vicoramdhani@gmail.com, 085591196700, LinkedIn: linkedin.com/in/vikotegarramdhani, or GitHub: github.com/syntaxmagician.",
   },
 
   // --- Language (spoken) ---
